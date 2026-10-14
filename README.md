@@ -1,5 +1,18 @@
 # Mapeamento de Imagens — Manual IPT (4ª Edição)
 
+## Livro ilustrado
+
+O livro completo com as **117 imagens** do repositório incorporadas está disponível nos
+[Releases](https://github.com/carsaimz/carsai-ipt/releases). O ficheiro de origem editável é
+`Manual_IPT_4a_Edicao_com_imagens.docx` e o PDF distribuível é gerado a partir dele.
+
+Para reproduzir a composição localmente:
+
+```bash
+python3 build_book.py
+libreoffice --headless --convert-to pdf --outdir . Manual_IPT_4a_Edicao_com_imagens.docx
+```
+
 **Total de imagens geradas: 93**  
 Todas as imagens foram geradas em formato PNG (2176×1632 px), estilo infográfico educativo, com fundo branco, cores vivas e legendas bilíngues (Inglês / Português).
 
