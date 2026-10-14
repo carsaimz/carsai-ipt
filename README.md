@@ -6,6 +6,10 @@ O livro completo com as **117 imagens** do repositório incorporadas está dispo
 [Releases](https://github.com/carsaimz/carsai-ipt/releases). O ficheiro de origem editável é
 `Manual_IPT_4a_Edicao_com_imagens.docx` e o PDF distribuível é gerado a partir dele.
 
+Cada imagem é inserida **depois do conteúdo explicativo do tópico correspondente e antes
+do próximo subtópico**, com a legenda mantida junto da imagem; as tabelas e o texto-base
+do manual são preservados.
+
 Para reproduzir a composição localmente:
 
 ```bash
